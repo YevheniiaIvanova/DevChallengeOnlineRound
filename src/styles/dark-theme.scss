@@ -1,0 +1,25 @@
+.theme-is-black {
+  --main-theme-bg-color: #161926;
+  --main-theme-text-color: #fff;
+  --main-theme-accented-color: #689ff2;
+  --main-theme-btn-color: #53f3cd;
+
+  background-color: #161926;
+  color: #fff;
+
+  .header {
+    background-image: url('../images/header_bg-dark.jpg');
+  }
+
+  .page-wrapper {
+    background-image: url('../images/first-screen-bg-dark.jpg');
+  }
+
+  .section-content__text-wrapper {
+    background-color: rgba(#161926, 0.9);
+  }
+
+  .contact__input:not(:last-child) {
+    border-bottom: 1px solid rgba(#fff, 0.1);
+  }
+}

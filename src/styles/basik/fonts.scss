@@ -1,0 +1,53 @@
+@font-face {
+  font-display: swap;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  src:
+    url('../fonts/Lato/Light/Lato-Light.woff2') format('woff2'),
+    url('../fonts/Lato/Light/Lato-Light.woff') format('woff');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src:
+    url('../fonts/Lato/Regular/Lato-Regular.woff2') format('woff2'),
+    url('../fonts/Lato/Regular/Lato-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  src:
+    url('../fonts/Lato/Bold/Lato-Bold.woff2') format('woff2'),
+    url('../fonts/Lato/Bold/Lato-Bold.woff') format('woff');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Playfairdisplay';
+  font-style: italic;
+  font-weight: 400;
+  src:
+    url('../fonts/Playfairdisplay/Italic/Playfairdisplay-Italic.woff2')
+    format('woff2'),
+    url('../fonts/Playfairdisplay/Italic/Playfairdisplay-Italic.woff')
+    format('woff');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Playfairdisplay';
+  font-style: normal;
+  font-weight: 400;
+  src:
+    url('../fonts/Playfairdisplay/Regular/Playfairdisplay-Regular.woff2')
+    format('woff2'),
+    url('../fonts/Playfairdisplay/Regular/Playfairdisplay-Regular.woff')
+    format('woff');
+}
