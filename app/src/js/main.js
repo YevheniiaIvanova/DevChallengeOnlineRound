@@ -1,4 +1,4 @@
-import 'webp-in-css/polyfill';
+// import 'webp-in-css/polyfill';
 import Glide from '@glidejs/glide';
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -8,8 +8,26 @@ document.addEventListener('DOMContentLoaded', () => {
 	const sliderCursor = document.querySelector('[data-slider-cursor]');
 
 	changeThemeButton.onclick = function() {
-		document.body.classList.toggle('theme-is-black');
+		document.querySelector('body').classList.toggle('theme-is-black');
 	}
+
+// function testWebP(callback) {
+
+// 		const webP = new Image();
+// 		webP.onload = webP.onerror = function () {
+// 		callback(webP.height == 2);
+// 		};
+// 		webP.src = "data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAACyAgCdASoCAAIALmk0mk0iIiIiIgBoSygABc6WWgAA/veff/0PP8bA//LwYAAA";
+// 		}
+		
+// 		testWebP(function (support) {
+		
+// 		if (support == true) {
+// 		document.querySelector('body').classList.add('webp');
+// 		}else{
+// 		document.querySelector('body').classList.add('no-webp');
+// 		}
+// 	});
 
 	playVideoButton.onclick = function() {
 		playVideoButton.style.display = "none";

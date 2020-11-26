@@ -1,8 +1,8 @@
 const lpName = '';
 const syntax = 'scss';
 const directories = {
-  src: './src/',
-  dev: './dev/',
+  src: './app/src/',
+  dev: './app/dev/',
   public: './dist/',
   css: 'styles/',
   js: 'js/',

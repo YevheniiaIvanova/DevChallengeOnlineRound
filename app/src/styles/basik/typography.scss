@@ -4,11 +4,6 @@
   --main-theme-accented-color: #85bbb1;
   --main-theme-btn-color: #f1897b;
   --main-theme-text-slide: #fff;
-
-  // --dark-theme-bg-color: #161926;
-  // --dark-theme-text-color: #FFFFFF;
-  // --dark-theme-accented-color: #689FF2;
-  // --dark-theme-btn-color: #53F3CD;
 }
 
 html {
@@ -22,7 +17,13 @@ body {
   color: var(--main-theme-text-color);
   font-family: 'Lato', 'Verdana', 'Geneva', sans-serif;
   font-size: 18px;
-  font-weight: 400;
+	font-weight: 400;
+	
+	&.theme-is-black {
+		.page-wrapper {
+			background-image: url('../images/first-screen-bg-dark.jpg');
+		}
+	}
 }
 
 input:not(.contact__button) {
